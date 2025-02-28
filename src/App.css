@@ -1,0 +1,125 @@
+.App {
+  height: 100vh;
+  text-align: center;
+  align-items: center;
+  background-image: url('./assets/imagenes/iniciobg.webp');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  background: #222121d2;
+  display: flex;
+  flex-wrap: nowrap;
+  color: white;
+  font-size: 25px;
+  border-radius: 8px;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+
+}
+
+.navbar a:visited {
+  color: white;
+}
+
+.navbar a:hover {
+  cursor: pointer;
+  background-color: aliceblue;
+  color: #333;
+  border-radius: 8px;
+  padding: 16px;
+
+}
+
+.foto {
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
+}
+
+.projectsContainer {
+  color: aliceblue;
+  background-color: rgb(212, 206, 208);
+  background: radial-gradient(circle, rgba(212, 206, 208, 1) 0%, rgba(33, 44, 57, 1) 100%);
+}
+
+.tecnologias {
+  text-align: center;
+  padding: 2rem;
+  font-size: 3rem;
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 1));
+}
+
+.tecnologias h1 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.iconsTec {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.iconsTec :hover {
+  color: #030536;
+  font-size: 70px;
+
+}
+
+
+.projectsGrid {
+  margin: auto;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: repeat(4, 1fr);
+  padding-top: 40px;
+  gap: 18px;
+  min-height: 100vh;
+  color: aliceblue;
+  overflow: auto;
+}
+
+footer {
+  background-color: #030536;
+  color: aliceblue;
+}
+
+/* Media query para pantallas medianas (tablets) */
+@media (max-width: 900px) {
+  .projectsGrid {
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 columnas */
+  }
+}
+
+/* Media query para pantallas pequeñas (móviles grandes) */
+@media (max-width: 700px) {
+  .projectsGrid {
+    grid-template-columns: repeat(2, 1fr);
+    /* 2 columnas */
+  }
+}
+
+/* Media query para pantallas muy pequeñas (móviles) */
+@media (max-width: 500px) {
+  .projectsGrid {
+    grid-template-columns: repeat(1, 1fr);
+    /* 1 columna */
+  }
+}

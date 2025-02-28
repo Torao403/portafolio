@@ -1,0 +1,64 @@
+.welcomeSection {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ }
+
+.title {
+  font-size: 4.5rem; /* Título más grande */
+  color: white;
+  margin-bottom: 1rem;
+  white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+  overflow: hidden; /* Oculta el texto que aún no se ha "escrito" */
+  border-right: 2px solid white; /* Cursor parpadeante */
+  animation: blink-caret 0.75s step-end infinite; /* Animación del cursor */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 2); /* Sombra del texto */
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 1));
+
+}
+
+
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: white;
+  }
+}
+
+.description {
+  font-size: 1.5rem; /* Descripción más grande */
+  color: whitesmoke;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 2); /* Sombra del texto */
+}
+
+.icons{
+  margin-top: 2rem;
+  display: flex;
+  gap: 3rem;
+  font-size: 50px;
+  justify-content: space-between;
+  transition: all 0.3s ease;
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 1));
+}
+.icons a:visited{
+  color: white;
+}
+
+.icons :hover{
+  color: #333;
+  font-size: 60px;
+  background-color: white;
+  padding: 12px 16px;
+  transition: all 0.5s ease;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+
