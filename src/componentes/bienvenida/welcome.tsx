@@ -32,10 +32,10 @@ const Welcome: React.FC = () => {
                 Soy desarrollador, con un gran gusto por las tecnologias.   
             </p>
             <div className={styles.icons}>
-                <a href="https://www.linkedin.com/in/daniel-garcía-2b5327321/" target="_blank" rel="noopener noreferrer"><FaLinkedin/></a>
-                <a href="https://github.com/Torao403" target="_blank" rel="noopener noreferrer"><FaGithub/></a>
-                <a href="https://www.youtube.com/@efectoresidual" target="_blank" rel="noopener noreferrer"><FaYoutube/></a>
-                <a href="https://www.freecodecamp.org/Torao403" target="_blank" rel="noopener noreferrer"><FaFreeCodeCamp/></a>
+                <a href="https://www.linkedin.com/in/daniel-garcía-2b5327321/" target="_blank" rel="noopener noreferrer"><FaLinkedin style={{color: "white"}}/></a>
+                <a href="https://github.com/Torao403" target="_blank" rel="noopener noreferrer"><FaGithub style={{color: "white"}}/></a>
+                <a href="https://www.youtube.com/@efectoresidual" target="_blank" rel="noopener noreferrer"><FaYoutube style={{color: "white"}}/></a>
+                <a href="https://www.freecodecamp.org/Torao403" target="_blank" rel="noopener noreferrer"><FaFreeCodeCamp style={{color: "white"}}/></a>
             </div>
         </section>
     );
