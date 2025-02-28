@@ -1,5 +1,5 @@
 import { FaLaptopCode, FaLinkedin, FaGithub, FaYoutube, FaFreeCodeCamp } from "react-icons/fa";
-import styles from './Welcome.module.css'
+import styles from './welcome.module.css'
 
 import { useState, useEffect } from "react";
 

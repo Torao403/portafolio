@@ -1,11 +1,4 @@
-
 * {
-    margin: 0 auto;
-    padding: 0;
-    background: url('../../assets/imagenes/iniciobg.webp');
-  background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
-  background-position: center; /* Centra la imagen */
-  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  margin: 0 auto;
+  padding: 0;
 }
-
-
