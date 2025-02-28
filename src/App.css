@@ -68,6 +68,9 @@
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+.icon{
+  color: aliceblue;
+}
 
 .iconsTec {
   display: grid;
