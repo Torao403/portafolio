@@ -27,7 +27,8 @@ const Welcome: React.FC = () => {
 
     return (
         <section className={styles.welcomeSection}>
-            <h1 className={styles.title}><FaLaptopCode /> {text}</h1>
+            <h1 className={styles.title}><FaLaptopCode />
+             {text}</h1>
             <p className={styles.description}>
                 Soy desarrollador, con un gran gusto por las tecnologias.   
             </p>
