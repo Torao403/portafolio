@@ -1,10 +1,12 @@
 .welcomeSection {
   height: 100vh;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+  overflow: hidden;
  }
 
 .title {
@@ -33,7 +35,6 @@
 .description {
   font-size: 1.5rem; /* Descripción más grande */
   color: whitesmoke;
-  max-width: 600px;
   margin: 0 auto 2rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 2); /* Sombra del texto */
 }
@@ -63,14 +64,14 @@
 }
 
 
-@media (max-width: 750px) {
+@media (max-width: 600px) {
   
   .title{
-    font-size:3.3rem;
+    font-size:3rem;
   }
 
   .description{
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
 
