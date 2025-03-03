@@ -1,4 +1,4 @@
-import { FaLaptopCode, FaLinkedin, FaGithub, FaYoutube, FaFreeCodeCamp } from "react-icons/fa";
+import { FaLaptopCode, FaLinkedin, FaGithub, FaFreeCodeCamp } from "react-icons/fa";
 import styles from './welcome.module.css'
 
 import { useState, useEffect } from "react";
@@ -34,7 +34,6 @@ const Welcome: React.FC = () => {
             <div className={styles.icons}>
                 <a href="https://www.linkedin.com/in/daniel-garcía-2b5327321/" target="_blank" rel="noopener noreferrer"><FaLinkedin style={{color: "white"}}/></a>
                 <a href="https://github.com/Torao403" target="_blank" rel="noopener noreferrer"><FaGithub style={{color: "white"}}/></a>
-                <a href="https://www.youtube.com/@efectoresidual" target="_blank" rel="noopener noreferrer"><FaYoutube style={{color: "white"}}/></a>
                 <a href="https://www.freecodecamp.org/Torao403" target="_blank" rel="noopener noreferrer"><FaFreeCodeCamp style={{color: "white"}}/></a>
             </div>
         </section>

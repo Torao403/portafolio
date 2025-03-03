@@ -63,3 +63,15 @@
 }
 
 
+@media (max-width: 750px) {
+  
+  .title{
+    font-size:3.3rem;
+  }
+
+  .description{
+    font-size: 1.2rem;
+  }
+
+
+}

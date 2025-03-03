@@ -26,7 +26,7 @@ function App() {
       </div>
       <div id='proyectos' className='projectsContainer' >
         <section className='tecnologias'>
-          <h1>Tecnologias Conocidas</h1>
+          <h1>Proyectos</h1>
           <div className='iconsTec'>
             <div className='icon'><FaHtml5 /></div>
             <div className='icon'><FaCss3 /></div>

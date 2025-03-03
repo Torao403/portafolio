@@ -3,8 +3,16 @@ import RMP from '../../assets/imagenes/RMP.png';
 import clock from '../../assets/imagenes/clock.png';
 import dm from '../../assets/imagenes/dm.png';
 import calculator from '../../assets/imagenes/calculator.png';
+import portafolio from '../../assets/imagenes/portafolio.png'
 
 export const projects = [
+    {
+        title: "Portafolio DaniDev",
+        description: "Este es mi primer proyecto independiente",
+        imageUrl: portafolio,
+        projectUrl: "https://dani-dev-portafolio.vercel.app",
+        githubUrl: "https://github.com/Torao403/portafolio",
+    },
     {
         title: "FCC Random Quote Machin",
         description: "Proyecto para certificación librerias front End fCC",
